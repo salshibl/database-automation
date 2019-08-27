@@ -5,4 +5,5 @@
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
 	<include file="/changelogs/profile/create-profile-table.xml"/>
+	<include file="/changelogs/profile/contact/create-contact-table.yaml"/>
 </databaseChangeLog>
