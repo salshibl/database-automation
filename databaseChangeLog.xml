@@ -8,4 +8,5 @@
 	<include file="/changelogs/profile/contact/create-contact-table.yaml"/>
 	<include file="/changelogs/profile/address/create-address-table.json"/>
 	<include file="/changelogs/lookup/country/create-country-table.sql"/>
+	<include file="/changelogs/lookup/city/create-city-table.sql"/>
 </databaseChangeLog>
