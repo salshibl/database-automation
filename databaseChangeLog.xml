@@ -7,4 +7,5 @@
 	<include file="/changelogs/profile/create-profile-table.xml"/>
 	<include file="/changelogs/profile/contact/create-contact-table.yaml"/>
 	<include file="/changelogs/profile/address/create-address-table.json"/>
+	<include file="/changelogs/lookup/country/create-country-table.sql"/>
 </databaseChangeLog>
