@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+	<include file="/changelogs/profile/create-profile-table.xml"/>
+	<include file="/changelogs/profile/contact/create-contact-table.yaml"/>
+	<include file="/changelogs/profile/address/create-address-table.json"/>
+	<include file="/changelogs/lookup/country/create-country-table.sql"/>
+	<include file="/changelogs/lookup/city/create-city-table.sql"/>
+	<include file="/changelogs/lookup/country/gcc-countries-seed.sql"/>
+	<include file="/changelogs/lookup/city/saudi-main-cities-seed.sql"/>
+	<include file="/changelogs/profile/add-contact-foreign-key-to-profile.xml"/>
+	<include file="/changelogs/profile/add-address-foreign-key-to-profile.xml"/>
+</databaseChangeLog>

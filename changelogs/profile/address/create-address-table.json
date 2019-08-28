@@ -1,0 +1,54 @@
+{
+    "databaseChangeLog": [
+        {
+            "changeSet": {
+                "id": "create-address-table",
+                "author": "salman",
+                "changes": [
+                    {
+                        "createTable": {
+                            "tableName": "address",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "id",
+                                        "type": "int",
+                                        "autoIncrement": true,
+                                        "constraints": {
+                                            "primaryKey": true,
+                                            "nullable": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "column": {
+                                        "name": "street",
+                                        "type": "varchar(50)"
+                                    }
+                                },
+                                {
+                                    "column": {
+                                        "name": "country_id",
+                                        "type": "int",
+                                        "constraints": {
+                                            "nullable": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "column": {
+                                        "name": "city_id",
+                                        "type": "int",
+                                        "constraints": {
+                                            "nullable": false
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
