@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+	<changeSet author="salman" id="add-contact-foreign-key-to-profile">
+		<addColumn tableName="profile">
+			<column name="contact_id" type="int">
+				<constraints nullable="true" foreignKeyName="fk_profile_contact" references="contact(id)"/>
+			</column>
+		</addColumn>
+	</changeSet>
+</databaseChangeLog>
