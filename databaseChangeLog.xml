@@ -12,4 +12,5 @@
 	<include file="/changelogs/lookup/country/gcc-countries-seed.sql"/>
 	<include file="/changelogs/lookup/city/saudi-main-cities-seed.sql"/>
 	<include file="/changelogs/profile/add-contact-foreign-key-to-profile.xml"/>
+	<include file="/changelogs/profile/add-address-foreign-key-to-profile.xml"/>
 </databaseChangeLog>
